@@ -1,0 +1,172 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    footer {
+      margin-top: 200px;
+      margin-bottom: 200px;
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Nunito;
+      color: #fff;
+      width: 100%;
+      box-sizing: border-box;
+
+      @media screen and (max-width: 673px) {
+        height: 500px;
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+      }
+
+      .address {
+        @media screen and (max-width: 673px) {
+            margin-left: 20px;
+            margin-top: 20px;
+        } 
+        
+        h3 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 27px;
+            color: #FFFFFF;
+          }
+
+          .traco {
+            border-top: 5px #fff solid;
+            margin: 0 auto;
+            width: 44.94px;
+            height: 0px;
+            margin-left: 0px;
+            margin-top: -9px;
+            margin-bottom: 16px;
+        }
+        p {
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 12px;
+
+            a {
+                text-decoration: none;
+                color:#fff
+            }
+          }
+      }
+      .contact {
+        margin-left: 150px;
+        margin-right: 150px;
+      
+        @media screen and (max-width: 968px) {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        @media screen and (max-width: 673px) {
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 39px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        ul {
+            list-style-type: disc;
+      
+        @media screen and (max-width: 673px) {
+            margin-left: -25px;
+        }
+        li{
+            background-color: #fff;
+            margin-bottom: 25px;
+            border-radius: 5px;
+            width: 195px;
+            height: 38px;
+            text-align: center;
+            list-style-type: none;
+            display: list-item;
+
+            &:last-child{
+                margin-bottom: 0;
+            }
+            #email {
+                position: absolute;
+                margin-left: -8px;
+                margin-top: 10px;
+              }
+              a{
+                text-transform: uppercase;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 16px;
+                color: black;
+                text-align: center;
+                display: inline-block;
+                text-decoration: none;
+
+               
+                    
+                &:visited{
+                    text-decoration:none;
+                    }
+                    
+                &:hover{
+                    text-decoration:none;
+                    }
+                    
+                &:active{
+                    text-decoration:none;
+                    }
+              }
+              
+              #text-contact {
+                position: relative;
+                top: 5px;
+                margin-left: 19px;
+                text-align: center;
+              }
+              
+              #headphone {
+                position: absolute;
+                margin-left: 19px;
+                margin-top: 10px;
+              }
+
+              #text-chat {
+                position: relative;
+                top: 5px;
+                margin-left: 19px;
+                text-align: center;
+            }
+          }
+        }
+      }
+      .created{
+        
+        @media screen and (max-width: 673px) {
+                margin-top: 24px;
+                margin-left: -25px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+        }
+        div {
+            display: inline-block;
+            margin-left: 20px;
+          }
+          p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10.6017px;
+            line-height: 14px;
+            margin: 0 auto;
+          }
+      }
+    }
+  }
